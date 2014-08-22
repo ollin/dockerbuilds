@@ -1,7 +1,7 @@
-# VERSION 1
+# VERSION 2
 # Dockerfile is based on relateiq/oracle-java8
 
-FROM ubuntu:14.04
+FROM ubuntu:14.04.1
 MAINTAINER Oliver Nautsch <oliver.nautsch@gmail.com>
 
 RUN echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu precise main" | tee -a /etc/apt/sources.list
