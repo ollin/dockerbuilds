@@ -11,4 +11,4 @@ Usage example:
 sudo docker run -d -p 8081:8081 --name nexus3 ollin/nexus3
 ```
 
-Wait for a while and open the browser at http://localhost:8081/nexus
+wait for a few seconds and open the browser at http://localhost:8081/nexus
