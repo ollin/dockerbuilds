@@ -20,5 +20,5 @@ ADD myApp.zip /home/developer/myApp.zip
 EXPOSE 8080
 
 WORKDIR /home/developer
-CMD [\"vertx\", \"runzip\", \"myApp.zip\"]
+CMD ["vertx", "runzip", "myApp.zip"]
 ```
