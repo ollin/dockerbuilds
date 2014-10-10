@@ -1,12 +1,10 @@
-# VERSION 2
-
-FROM ollin/gvm
+FROM dockerfile/java:oracle-java8
 MAINTAINER Oliver Nautsch <oliver.nautsch@gmail.com>
 
-RUN ["/opt/run", "install", "vertx", "2.1.2"]
-RUN ["/opt/run", "default", "vertx", "2.1.2"]
+RUN wget http://dl.bintray.com/vertx/downloads/vert.x-2.1.2.tar.gz && \
+    tar zxf vert.x-2.1.2.tar.gz -C /usr/share && \
+    rm vert.x-2.1.2.tar.gz && \
+    ln -s /usr/share/vert.x-2.1.2/bin/vertx /usr/bin/vertx
 
-ADD run /opt/run
+CMD ["vertx"]
 
-CMD ["version"]
-ENTRYPOINT ["/opt/run"]
