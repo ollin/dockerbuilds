@@ -3,7 +3,8 @@ vertx
 
 docker image 
 
--  http://vertx.io/
+- http://vertx.io/
+- vert.x version 2.1.4
 
 Usage example:
 
