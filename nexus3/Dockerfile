@@ -1,4 +1,4 @@
-FROM dockerfile/java:oracle-java8
+FROM java:8
 MAINTAINER Oliver Nautsch <oliver.nautsch@gmail.com>
 
 RUN cd /tmp && \
