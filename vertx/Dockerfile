@@ -1,4 +1,4 @@
-FROM dockerfile/java:oracle-java8
+FROM java:8
 MAINTAINER Oliver Nautsch <oliver.nautsch@gmail.com>
 
 RUN wget http://dl.bintray.com/vertx/downloads/vert.x-2.1.5.tar.gz && \
