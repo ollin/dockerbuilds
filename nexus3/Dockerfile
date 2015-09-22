@@ -2,7 +2,7 @@ FROM dockerfile/java:oracle-java8
 MAINTAINER Oliver Nautsch <oliver.nautsch@gmail.com>
 
 RUN cd /tmp && \
-    wget -O /tmp/nexus-bundle.tar.gz http://download.sonatype.com/nexus/oss/nexus-3.0.0-m2-bundle.tar.gz && \
+    wget -O /tmp/nexus-bundle.tar.gz http://download.sonatype.com/nexus/oss/nexus-3.0.0-m5-bundle.tar.gz && \
     tar -zxf /tmp/nexus-bundle.tar.gz -C /usr/local && \
     mv /usr/local/nexus-3.0.0-* /usr/local/nexus && \
     mkdir -p /usr/local/sonatype-work/nexus/logs && \
