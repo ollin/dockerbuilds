@@ -1,9 +1,9 @@
-nexus 3.0.0-M6
+nexus 3.0.0-7M
 ==============
 
 docker image 
 
-https://support.sonatype.com/entries/96157708-Nexus-3-0-Technology-Preview-Milestone-5-Release-
+https://support.sonatype.com/hc/en-us/articles/215781148-Nexus-Repository-Manager-3-0-Milestone-7-Release-
 
 Usage example:
 
