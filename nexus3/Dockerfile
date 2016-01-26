@@ -2,7 +2,7 @@ FROM java:8
 MAINTAINER Oliver Nautsch <oliver.nautsch@gmail.com>
 
 RUN cd /tmp && \
-    wget -O /tmp/nexus-bundle.tar.gz http://download.sonatype.com/nexus/oss/nexus-installer-3.0.0-m6-unix-archive.tar.gz && \
+    wget -O /tmp/nexus-bundle.tar.gz http://download.sonatype.com/nexus/3/nexus-3.0.0-m7-unix.tar.gz && \
     tar -zxf /tmp/nexus-bundle.tar.gz -C /usr/local && \
     mv /usr/local/nexus-3.0.0-* /usr/local/nexus && \
     mkdir -p /usr/local/sonatype-work/nexus/logs && \
